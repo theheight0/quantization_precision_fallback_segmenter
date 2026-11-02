@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "theheight0-mlopsarch_jd165"
+name = "theheight0-quantization_precision_fallback_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对MLOps 平台架构师·量化位宽与精度回退相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://theheight0.github.io"
-Repository = "https://github.com/theheight0/mlopsarch_jd165"
-Issues = "https://github.com/theheight0/mlopsarch_jd165/issues"
+Repository = "https://github.com/theheight0/quantization_precision_fallback_segmenter"
+Issues = "https://github.com/theheight0/quantization_precision_fallback_segmenter/issues"
 
 [project.scripts]
-mlopsarch_jd165 = "mlopsarch_jd165:main"
+quantization_precision_fallback_segmenter = "quantization_precision_fallback_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["mlopsarch_jd165"]
+py-modules = ["quantization_precision_fallback_segmenter"]
